@@ -22,9 +22,8 @@ Feature: Sauce Login
     Examples:
       | username      | password     |
       | standard_user | secret_sauce |
-      | standard_user | secret_sauce |
-      | standard_user | secret_sauce |
-
+      | performance_glitch_user | secret_sauce |
+      | visual_user | secret_sauce |
 
   @Regression
   Scenario: Verify unsuccessful login with invalid username
